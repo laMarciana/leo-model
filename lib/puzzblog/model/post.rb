@@ -6,7 +6,7 @@ module Puzzblog
       property :title, String, required: true
       property :content, Text
 
-      belongs_to :category
+      has n, :categories, through: Resource
     end
   end
 end
