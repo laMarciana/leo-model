@@ -1,6 +1,8 @@
 %w[
-data_mapper
+dm-core
 dm-rspec
+dm-timestamps
+dm-validations
 ].each do |lib|
   require lib
 end

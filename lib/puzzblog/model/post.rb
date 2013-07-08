@@ -8,6 +8,8 @@ module Puzzblog
 
       has n, :categories, through: Resource
       has n, :authors, through: Resource
+
+      timestamps :at
     end
   end
 end
