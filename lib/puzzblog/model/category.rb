@@ -4,6 +4,8 @@ module Puzzblog
       include DataMapper::Resource
 
       property :title, String, required: true, unique: true
+
+      has n, :posts
     end
   end
 end
