@@ -3,7 +3,7 @@ module Puzzblog
     class Post
       include DataMapper::Resource
 
-      property :title, String
+      property :title, String, required: true
       property :content, Text
     end
   end
