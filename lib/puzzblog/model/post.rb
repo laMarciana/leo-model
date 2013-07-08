@@ -5,6 +5,8 @@ module Puzzblog
 
       property :title, String, required: true
       property :content, Text
+
+      belongs_to :category
     end
   end
 end
