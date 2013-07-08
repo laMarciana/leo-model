@@ -4,6 +4,7 @@ module Puzzblog
       include DataMapper::Resource
 
       property :username, String, required: true
+      has n, :posts, through: Resource
     end
   end
 end

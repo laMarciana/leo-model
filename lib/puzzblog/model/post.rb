@@ -7,6 +7,7 @@ module Puzzblog
       property :content, Text
 
       has n, :categories, through: Resource
+      has n, :authors, through: Resource
     end
   end
 end
