@@ -1,4 +1,4 @@
-module Puzzblog
+module Leo
   module Model
     # Blog Post
     class Post

@@ -1,3 +1,3 @@
 # Contains model definitions
-module Puzzblog::Model
+module Leo::Model
 end
