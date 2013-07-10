@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["marc@lamarciana.com"]
   spec.description   = %q{Generic classes to write anything}
   spec.summary       = %q{Generic classes to write anything}
-  spec.homepage      = "https//github.com/laMarciana/leo-model"
+  spec.homepage      = "https://github.com/laMarciana/leo-model"
   spec.license       = "GPL3"
 
   spec.files         = `git ls-files`.split($/)
