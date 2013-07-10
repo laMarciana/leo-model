@@ -1,6 +1,6 @@
 module Leo
   module Model
-    # Blog Post
+    # Post
     class Post
       include DataMapper::Resource
 

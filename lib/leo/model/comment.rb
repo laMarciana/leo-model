@@ -1,6 +1,6 @@
 module Leo
   module Model
-    # Blog Comment
+    # Comment of a Post
     class Comment
       include DataMapper::Resource
 

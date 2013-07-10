@@ -1,6 +1,6 @@
 module Leo
   module Model
-    # Blog Author
+    # Author of a Post or Comment
     class Author
       include DataMapper::Resource
 
