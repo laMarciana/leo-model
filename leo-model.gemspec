@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Leo::Model::VERSION
   spec.authors       = ["marc"]
   spec.email         = ["marc@lamarciana.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Generic classes to write anything}
+  spec.summary       = %q{Generic classes to write anything}
+  spec.homepage      = "https//github.com/laMarciana/leo-model"
   spec.license       = "GPL3"
 
   spec.files         = `git ls-files`.split($/)

@@ -1,6 +1,6 @@
 # Leo::Model
 
-TODO: Write a gem description
+Generic classes to write anything
 
 ## Installation
 
@@ -15,10 +15,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install leo-model
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
