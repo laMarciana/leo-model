@@ -8,6 +8,8 @@ module Leo
       property :title, String, required: true
       # @return [String] the content property of the Post
       property :content, Text
+      # @return [String] the abstract property of the Post
+      property :abstract, Text
       # @method categories
       # @return [Array<Category>] the categories of the Post
       has n, :categories, through: Resource
