@@ -4,6 +4,8 @@ module Leo
     class Comment
       include DataMapper::Resource
 
+      # @return [String] the title of the comment
+      property :title, String
       # @return [String] the content of the comment
       property :content, Text, required: true
       # @return [Post] the post of the comment
