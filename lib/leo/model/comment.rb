@@ -4,8 +4,10 @@ module Leo
     class Comment
       include DataMapper::Resource
 
+      # @return [String] the content of the comment
+      property :content, Text
       # @return [Post] the post of the comment
-      belongs_to :author, required: false
+      belongs_to :post, required: false
       # @return [Author] the author of the comment
       belongs_to :author, required: false
     end
