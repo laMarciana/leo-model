@@ -27,4 +27,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 2.13"
   spec.add_development_dependency "rspec-expectations", "~> 2.13"
   spec.add_development_dependency "dm-rspec", "~> 0.2"
+  spec.add_development_dependency "yard", "~> 0.8", ">0.8.6"
+  spec.add_development_dependency "redcarpet", "~> 2.2"
 end
